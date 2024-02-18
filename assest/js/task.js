@@ -15,12 +15,12 @@ function closeDialog() {
     dialog.style.display = "none";
 }
 
-// Dialog açma butonuna tıklanınca dialog açılsın
+// Dialog açma butonuna tıklanınca dialog aç
 newBtn.addEventListener("click", openDialog);
 newTaskButton.addEventListener("click", openDialog);
 newTaskBtn.addEventListener("click", openDialog);
 
-// Kapatma butonuna tıklanınca dialog kapatılsın
+// Kapatma butonuna tıklanınca dialog kapat
 closeBtn.addEventListener("click", closeDialog);
 
 
@@ -57,14 +57,14 @@ kaydetBtn.addEventListener('click', () => {
     }
 });
 
-  // Üç nokta menüsüne tıklandığında açılır menünün görünürlüğünü değiştiren fonksiyon
+  // Üç nokta menüsüne tıklandığında açılır menünün görünürlüğünü değiştir
   function toggleMenu(event) {
     var parentCard = event.target.closest('.to-do-card');
     var menu = parentCard.querySelector('.job-toggle-menu');
     menu.classList.toggle('job-toggle-menu-active');
 }
 
-// Sayfa yüklendiğinde her bir üç nokta menüsüne tıklanma olay dinleyicisi eklenmesi
+// Sayfa yüklendiğinde her bir üç nokta menüsüne tıklanma olay dinleyicisi ekle
 document.addEventListener('DOMContentLoaded', function() {
     var dotsMenuButtons = document.querySelectorAll('.item3-dot-menu');
     dotsMenuButtons.forEach(function(button) {
