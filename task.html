@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assest/css/task.css">
+    <script src="assest/js/task.js" defer></script>
+</head>
+<body>
+    <div class="grid-container">    
+        <div class="item1">
+            <div class="bread-crumb">
+                <h6>Kanban <span>></span> Design System <span>></span> Updates</h6>
+            </div>
+
+            <div class="item1-title">
+                <h1>Hey there, Brian Ford!</h1>
+                <h5>Welcome back, we're happy to have you here!</h5>
+            </div>
+
+            <div class="tabs">
+                <h5>My task</h5>
+                <h5>Profile</h5>
+                <h5>Stats</h5>
+                <h5>Inbox</h5>
+                <h5>Team</h5>
+                <h5 class="notification">Notifications <img src="assest/img/Notification 3.png"></h5>
+                <h5>Settings</h5>
+
+            </div>
+
+            <div class="btn-group">
+                <div class="buttons">
+                    <button class="All-btn">All</button>
+                    <button class="Saved-btn">Saved</button>
+                    <button class="Recent-btn">Recent</button>
+                    <button><img src="assest/img/plus.svg"></button>
+
+                </div>
+                <div class="add-button">
+                    <button class="filter-btn"><img src="assest/img/filter.svg"> Add filter</button>
+                    <button class="new-btn"><img src="assest/img/plus.svg">New Board</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="item2">
+            <div class="side-menu">
+                <img src="assest/img/black-logo.svg" alt="black-logo" class="side-menu-logo">
+                <div class="side-menu-section">
+                    <ul>
+                        <li><img src="assest/img/dashboard.svg" alt=""><span>Dashboard</span></li>
+                        <li><img src="assest/img/audience.svg" alt=""><span>Audience</span><img src="assest/img/down.svg" alt=""></li>
+                        <li><img src="assest/img/posts.svg" alt=""><span>Posts</span><img src="assest/img/notification-11.png" alt=""></li>
+                        <li><img src="assest/img/schedule.svg" alt=""> <span>Schedule</span><img src="assest/img/Schedule-3.png" alt=""></li>
+                        <li><img src="assest/img/Income.svg" alt=""><span>Income</span><img src="assest/img/down.svg" alt=""></li>
+                        <ul class="dot">
+                            <li><img src="assest/img/dot.svg" alt="">Earnings</li>
+                            <li><img src="assest/img/dot.svg" alt="">Refunds</li>
+                            <li><img src="assest/img/dot.svg" alt="">Declines</li>
+                            <li><img src="assest/img/dot.svg" alt="">Payouts</li>
+                        </ul>
+                        <li><img src="assest/img/promote.svg" alt=""><span>Promote</span><img src="assest/img/down.svg" alt=""></li>
+        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="widgets-nav">
+                <div class="new-task">
+                    <button class="new-task-button">
+                        <img src="assest/img/plus.svg" alt="">
+                        <h4>Add New Task</h4>
+                    </button>
+                </div>
+
+                <div class="projects-text">
+                    <h6>Projects</h6>
+                    <div class="section1">
+                        <h3>L</h3>
+                        <h4>Update Text Style</h4>
+                    </div>
+                    <div class="section2">
+                        <h4>%25</h4>
+                        <div class="progress-container">
+                            <span class="progress-bar">
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="item3">
+          <div class="to-do">
+            <h5 class="item3-titles">To Do</h5>
+            <div class="to-do-card">
+                <div class="job">
+                    <ul class="job-toggle-menu job-toggle-menu-active">
+                        <li><a href="#">Düzenle</a></li>
+                        <li><a href="#">Sil</a></li>
+                    </ul>
+                </div>
+
+                <div class="title-menu"><h5>Lookscout</h5> <button class="item3-dot-menu"><img src="assest/img/dot-menu.svg"></button></div>
+                
+                <h6>Cursus purus, diam, aliquet scelerisque dignissim tellus aenean viverra. In risus elit vel id tincidunt vel. Nunc ac ipsum.</h6>
+                <div class="clock-avatar"><img src="assest/img/Avatar -group.png"> <img src="assest/img/clock-label.png"></div>
+
+            </div>
+            <div class="to-do-card">
+                <div class="job">
+                    <ul class="job-toggle-menu job-toggle-menu-active">
+                        <li><a href="#">Düzenle</a></li>
+                        <li><a href="#">Sil</a></li>
+                    </ul>
+                </div>
+                <div class="title-menu"><h5>Lookscout</h5><button class="item3-dot-menu"><img src="assest/img/dot-menu.svg"></button></div>
+                <img class="img-card" src="assest/img/Content Placeholder.png">
+                <h6>Cursus purus, diam, aliquet scelerisque dignis.</h6>
+                <div class="clock-avatar"><img src="assest/img/Avatar -group.png"> <img src="assest/img/clock-label.png"></div>
+
+            </div>
+            <div id="notlar"></div>
+
+          </div>
+          <div class="In-progress">
+            <h5 class="item3-titles">In Progress</h5>
+            <div class="to-do-card">
+                <div class="job">
+                    <ul class="job-toggle-menu job-toggle-menu-active">
+                        <li><a href="#">Düzenle</a></li>
+                        <li><a href="#">Sil</a></li>
+                    </ul>
+                </div>
+                <div class="title-menu"><h5>Lookscout</h5><button class="item3-dot-menu"><img src="assest/img/dot-menu.svg"></button></div>
+                <img class="img-card" src="assest/img/Content Placeholder (1).png">
+                <h6>Cursus purus, diam, aliquet scelerisque dignis.</h6>
+                <div class="clock-avatar"><img src="assest/img/Avatar -group.png"> <img src="assest/img/clock-label.png"></div>
+
+            </div>
+            <div class="to-do-card">
+                <div class="job">
+                    <ul class="job-toggle-menu job-toggle-menu-active">
+                        <li><a href="#">Düzenle</a></li>
+                        <li><a href="#">Sil</a></li>
+                    </ul>
+                </div>
+                <div class="title-menu"><h5>Lookscout</h5><button class="item3-dot-menu"><img src="assest/img/dot-menu.svg"></button></div>
+                <h6>Cursus purus, diam, aliquet scelerisque dignissim tellus aenean viverra. In risus elit vel id tincidunt vel. Nunc ac ipsum.</h6>
+                <div class="clock-avatar"><img src="assest/img/Avatar -group.png"> <img src="assest/img/clock-label.png"></div>
+
+            </div>
+
+          </div>
+          <div class="done">
+            <h5 class="item3-titles">Done</h5>
+            <div class="to-do-card">
+                <div class="job">
+                    <ul class="job-toggle-menu job-toggle-menu-active">
+                        <li><a href="#">Düzenle</a></li>
+                        <li><a href="#">Sil</a></li>
+                    </ul>
+                </div>
+                <div class="title-menu"><h5>Lookscout</h5><button class="item3-dot-menu"><img src="assest/img/dot-menu.svg"></button></div>
+                <h6>Cursus purus, diam, aliquet scelerisque dignissim tellus aenean viverra. In risus elit vel id tincidunt vel. Nunc ac ipsum.</h6>
+                <div class="clock-avatar"><img src="assest/img/Avatar -group.png"> <img src="assest/img/clock-label.png"></div>
+            </div>
+            <div class="to-do-card">
+                <div class="job">
+                    <ul class="job-toggle-menu job-toggle-menu-active">
+                        <li><a href="#">Düzenle</a></li>
+                        <li><a href="#">Sil</a></li>
+                    </ul>
+                </div>
+                <div class="title-menu"><h5>Lookscout</h5><button class="item3-dot-menu"><img src="assest/img/dot-menu.svg"></button></div>
+                <h6>Cursus purus, diam, aliquet scelerisque dignissim tellus aenean viverra. In risus elit vel id tincidunt vel. Nunc ac ipsum.</h6>
+                <div class="clock-avatar"><img src="assest/img/Avatar -group.png"> <img src="assest/img/clock-label.png"></div>
+                
+
+            </div>
+
+          </div>
+          <div class="new-task-section">
+            <h5 class="item3-titles">New Task</h5>
+            <button class="new-task-btn">
+                <h4><img src="assest/img/plus.svg">Add</h4>
+            </button>
+
+          </div>
+        </div>
+    </div>
+
+    <div id="dialog">
+        <div class="dialog-content">
+            <div class="dialog-top-section">
+                <button id="kaydetBtn"><img src="assest/img/dialog-done.png"></button>
+                <div class="dialog-top-dot-close">
+                    <button id="dialog-dot-menu-btn"><img class="dialog-dot-menu" src="assest/img/dot-menu.svg"></button>    
+                    <span class="close-btn" onclick="closeDialog()"><img src="assest/img/close cross.svg"></span>      
+                </div>
+            </div>
+
+            <div class="dialog-title">
+                <h3>Lookscout - Design System Update</h3>
+                <h5>Added by Praesent Inent, 43 hours ago</h5>
+                <div class="dialog-title-users">
+                    <img src="assest/img/Avatar- group-dialog.png">
+                    <h6>Mo, 09 September 2022</h6>
+                </div>
+
+            </div>
+
+            <div class="dialog-progress">
+                <div class="-dialog-progress-container">
+                    <span class="-dialog-progress-bar">
+                    </span>
+                </div>
+                <h4>%25</h4>
+            </div>
+
+            <div class="dialog-description">
+                <div class="description-icon"><img src="assest/img/description-icon.svg"></div>
+                <div class="description-text">  
+                    <h5 class="dialog-description-title">Description</h5>
+                    <h5 class="description-paragraph">
+                        <input type="textarea" id="notInput">
+                        <br> <br>
+                        <div id="selectedOption"></div>
+                    </h5>
+                    <a href="#">Show More</a>
+                </div>
+                
+            </div>
+
+            <dialog id="optionsDialog">
+                <label for="optionsSelect">Seçenekleri Seçin:</label>
+                <select id="optionsSelect">
+                    <option value="TO-DO">TO DO</option>
+                    <option value="IN-PROGRESS">IN PROGRESS</option>
+                    <option value="DONE">DONE</option>
+                </select>
+                <button id="confirmOptionBtn">ONAYLA</button>
+            </dialog>
+
+            <div class="dialog-check-box">
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="task1">
+                            Task List
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="task2">
+                            Facilisi praesent non convallis est eu elit.
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="task3">
+                            Amet ornare augue turpis elit
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="task4">
+                            Eget nisl libero quam arcu ultricies nulla.
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="task5">
+                            Mi congue ac tellus urna risus imperdiet nunc.
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="dialog-images">
+                <div class="dialog-image-attach"><img src="assest/img/attach.svg"></div>
+                <div class="dialog-image">
+                    <h5>Attachment</h5>
+                    <div class="dialog-three-image">
+                        <img src="assest/img/dialogAtach1.png">
+                        <img src="assest/img/dialogAtach2.png">
+                        <img src="assest/img/dialogAtach3.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="xomments">
+                <div class="xomment-title">
+                    <img src="assest/img/message-icon.svg">
+                    <h5>Comments (3)</h5>
+                </div>
+                <div class="buble-xomment">
+                    <img src="assest/img/xomments-avatar.png">
+                    <div class="xomments-text">
+                        <h5>Brian Ford</h5>
+                        <h5>Hello, can we talk about Lookscout - Design System?</h5>
+                    </div>
+                </div>
+              
+            </div>
+        
+          
+        </div>
+    </div>
+      
+  
+</body>
+</html>
