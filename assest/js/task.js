@@ -56,3 +56,20 @@ kaydetBtn.addEventListener('click', () => {
         notInput.value = '';
     }
 });
+
+  // Üç nokta menüsüne tıklandığında açılır menünün görünürlüğünü değiştiren fonksiyon
+  function toggleMenu(event) {
+    var parentCard = event.target.closest('.to-do-card');
+    var menu = parentCard.querySelector('.job-toggle-menu');
+    menu.classList.toggle('job-toggle-menu-active');
+}
+
+// Sayfa yüklendiğinde her bir üç nokta menüsüne tıklanma olay dinleyicisi eklenmesi
+document.addEventListener('DOMContentLoaded', function() {
+    var dotsMenuButtons = document.querySelectorAll('.item3-dot-menu');
+    dotsMenuButtons.forEach(function(button) {
+        button.addEventListener('click', function(event) {
+            toggleMenu(event);
+        });
+    });
+});
